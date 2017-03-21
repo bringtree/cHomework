@@ -134,7 +134,7 @@ int insertRepertory(commodityLink *repertory) {
     int staff;
     int mode;
 
-    tail = repertory->next;
+    tail = repertory;
     while (tail->next != NULL) {
         tail = tail->next;
     }
